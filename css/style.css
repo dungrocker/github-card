@@ -1,3 +1,29 @@
 body{
-text-align: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+input{
+    height: 40px;
+    width: 400px;
+    outline: none;
+    border: 3px solid #9e6fd4;
+    font-size: 33px;
+    padding: 8px;
+}
+.card{
+    width: 230px;
+    background-color: #9e6fd4;
+    border-radius: 9px;
+    border: 3px solid #e6dfe8;
+    float: left;
+}
+.avatar{
+    width:230px;
+    border-radius: 5px;
+
+}
+.name{
+    color: white;
+    font-weight: 700;
+    font-family: Arial;
 }
